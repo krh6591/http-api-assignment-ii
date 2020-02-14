@@ -1,0 +1,26 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\"",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krh6591/http-api-assignment-ii.git"
+  },
+  "author": "Mira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krh6591/http-api-assignment-ii/issues"
+  },
+  "homepage": "https://github.com/krh6591/http-api-assignment-ii#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.0"
+  }
+}
